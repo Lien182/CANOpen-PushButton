@@ -1,0 +1,27 @@
+--cpu Cortex-M0
+"can\stm32f0xx_hal_i2c.o"
+"can\stm32f0xx_hal_rcc_ex.o"
+"can\stm32f0xx_hal_pwr_ex.o"
+"can\stm32f0xx_hal_i2c_ex.o"
+"can\stm32f0xx_hal_gpio.o"
+"can\stm32f0xx_hal_dma.o"
+"can\stm32f0xx_hal_pwr.o"
+"can\stm32f0xx_hal_adc_ex.o"
+"can\stm32f0xx_hal.o"
+"can\stm32f0xx_hal_flash_ex.o"
+"can\stm32f0xx_hal_adc.o"
+"can\stm32f0xx_hal_tim.o"
+"can\stm32f0xx_hal_rcc.o"
+"can\stm32f0xx_hal_tim_ex.o"
+"can\stm32f0xx_hal_flash.o"
+"can\stm32f0xx_hal_cortex.o"
+"can\stm32f0xx_hal_can.o"
+"can\system_stm32f0xx.o"
+"can\main.o"
+"can\stm32f0xx_it.o"
+"can\stm32f0xx_hal_msp.o"
+"can\startup_stm32f042x6.o"
+--library_type=microlib --strict --scatter "can\can.sct"
+--diag_suppress=L6329 --summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "can.map" -o can\can.axf
